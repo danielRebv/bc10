@@ -16,7 +16,7 @@ public class DriverFactory {
      * @param browser: chrome | firefox
      * @return Webdriver
      */
-    public static WebDriver inicializarDriver(String browser){
+    public WebDriver inicializarDriver(String browser){
 
         System.out.println("browser value is: "+browser);
         switch (browser) {

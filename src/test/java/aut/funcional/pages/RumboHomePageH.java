@@ -33,8 +33,8 @@ public class RumboHomePageH extends SeleniumWrapper {
     By btnCancelacionG = By.xpath("//div[contains(text(),'Cancelación gratuita')]");
     By wifiGratis = By.xpath("//div[contains(text(),'Wifi gratis')]");
     By valoracionH = By.xpath("//span[normalize-space()='Valoración']");
-    By vExcelente = By.xpath("//body/div[contains(@class,'sc-dmRaPn goosly custom-overlay-portal')]/div[@class='sc-kgflAQ jwIVQL']/div[1]//*[name()='svg']//*[name()='rect' and contains(@width,'20')]");
-    By aplicarV = By.xpath("//button[@class='sc-fEOsli jzgnBo']");
+    By vExcelente = By.xpath("//div[@id='container_full_width']//div[4]//div[1]");
+    By aplicarV = By.xpath("//button[normalize-space()='Aplicar']");
     //By box1 = By.xpath("//div[@class='sc-GVOUr elqapB openx-ui-card-content']");
     //alternativa box1
     By box1 = By.xpath("//div[@class='sc-GVOUr elqapB openx-ui-card-content']");

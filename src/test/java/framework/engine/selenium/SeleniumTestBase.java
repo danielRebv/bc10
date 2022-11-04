@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class SeleniumTestBase {
 
-
+    private DriverFactory driverFactory;
     WebDriver driver;
     static Properties properties;
 
@@ -23,12 +23,14 @@ public class SeleniumTestBase {
     @BeforeEach
     void webDriverSetup(){
         String browserName = properties.getProperty("browser");
-        DriverFactory.inicializarDriver(browserName);
-
+        driverFactory = new DriverFactory();
+        driver = driverFactory.inicializarDriver(browserName);
     }
 
+
     @AfterEach
-    void close(){
+    void close() {
+
         driver.quit();
     }
 
