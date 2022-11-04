@@ -1,5 +1,4 @@
 package aut.funcional.testcases.cruceros;
-
 import aut.funcional.pages.RumboHomePageC;
 import aut.funcional.pages.RumboHomePageH;
 import framework.engine.selenium.DriverFactory;

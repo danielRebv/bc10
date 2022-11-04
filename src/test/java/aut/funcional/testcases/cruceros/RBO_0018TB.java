@@ -1,5 +1,6 @@
 package aut.funcional.testcases.cruceros;
 
+
 import aut.funcional.pages.RumboHomePageC;
 import framework.engine.selenium.DriverFactory;
 import framework.engine.selenium.SeleniumTestBase;
@@ -27,3 +28,4 @@ public class RBO_0018TB extends SeleniumTestBase {
 
     }
 }
+
